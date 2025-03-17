@@ -1,43 +1,82 @@
 body {
   text-align: center;
-  background-color: rgba(139, 164, 156, 0.426);
+  background-color: #ddbea9;
 }
 h1 {
-  color: green;
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
+  color: #c58c6e;
+  margin-top: 80px;
+  margin-bottom: 80px;
 
-form {
+  font-family: "Lustria", serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 40px;
+}
+.quote {
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  color: #000000;
   margin-bottom: 30px;
+}
+.author {
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #000000;
+}
+form {
+  margin-top: 56px;
+  margin-bottom: 40px;
 }
 #search-input {
   min-width: 400px;
   padding: 10px;
   border: none;
-  autoco
-  mplete: off;
+  border-radius: 7px;
+  background: #fde3d3;
 }
 #submit-button {
   padding: 10px;
-  border-radius: 7px;
-  border: 1px solid hotpink;
+  border-radius: 12px;
+  border: 1px solid #c58c6e;
+  margin-left: 15px;
   cursor: pointer;
-  background-color: rgb(186, 125, 156);
-  box-shadow: 0 0 10px rgba(113, 113, 113, 0.1);
+  background-color: #c58c6ec1;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.297);
   transition: ease-in-out 0.2s;
 }
+
 .container {
-  background: rgba(255, 255, 255, 0.562);
+  background: #fde3d3;
   max-width: 600px;
   padding: 20px;
   margin: 20px auto;
   border-radius: 6px;
-  box-shadow: 0 0 10px rgba(113, 113, 113, 0.1);
+  box-shadow: 0 0 10px rgba(121, 121, 121, 0.1);
 }
 
 #generated-poem {
   color: rgb(0, 0, 0);
   font-style: italic;
   line-height: 16px;
+
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #c58c6e;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+}
+a {
+  color: #c58c6e;
 }

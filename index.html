@@ -3,14 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lustria&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Poem Generator</title>
   </head>
   <body>
     <header>
-      <h1>Generate me a poem</h1>
+      <h1>AI Poem generator</h1>
     </header>
     <main>
+      <div class="quote">
+        Poetry is when an emotion has found its thought and the thought has
+        found words. <br />
+        <div class="author">-Robert Frost-</div>
+      </div>
       <form action="">
         <input
           type="text"
@@ -20,8 +37,9 @@
           id="search-input"
           autocomplete="off"
         />
-        <input type="submit" value="Generate" id="submit-button"/>
+        <input type="submit" value="Generate" id="submit-button" />
       </form>
+
       <div class="container">
         <p id="generated-poem">Your Poem</p>
       </div>
@@ -35,12 +53,13 @@
         target="_blank"
         rel="noopener noreferrer"
         >GitHub</a
-      >and hosted on
+      >
+      and hosted on
       <a
         href="https://app.netlify.com/sites/daily-poem/configuration/general"
         target="_blank"
         >Netflify</a
-      >
+      >.
     </footer>
     <script src="script/script.js"></script>
   </body>
