@@ -94,7 +94,11 @@ form {
   font-style: normal;
 }
 .generating {
-  animation: blink-animation 1s infinite;
+  animation: blink-animation 2s infinite;
+  font-style: italic;
+  font-family: "Lustria", serif;
+  color: rgb(106, 106, 106);
+  font-size: 14px;
 }
 @keyframes blink-animation {
   0% {
