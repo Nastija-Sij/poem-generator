@@ -30,28 +30,21 @@
         found words. <br />
         <div class="author">-Robert Frost-</div>
       </div>
-      <form action="" id="poem-form">
-        <input
-          type="text"
-          placeholder="Enter the instructions for your poem.."
-          required
-          autofocus
-          id="search-input"
-          autocomplete="off"
-        />
-        <input type="submit" value="Generate" id="submit-button" />
-      </form>
-
-      <div class="container">
-        <p id="generated-poem">
-          "I love you without knowing how, or when, or from where. I love you
-          simply, without problems or pride: I love you in this way because I do
-          not know any other way of loving but this, in which there is no I or
-          you, so intimate that your hand upon my chest is my hand, so intimate
-          that when I fall asleep your eyes close." <br />
-          ― Pablo Neruda, 100 Love Sonnets
-        </p>
+      <div class="instructions-example">
+        <form action="" id="poem-form">
+          <input
+            type="text"
+            placeholder="Enter the instructions for your poem.."
+            required
+            autofocus
+            id="search-input"
+            autocomplete="off"
+          />
+          <input type="submit" value="Generate" id="submit-button" />
+        </form>
+        <p class="example">i.e.: Flowers; The night sky etc...</p>
       </div>
+      <div class="poem-container hidden" id="generated-poem"></div>
     </main>
     <footer>
       This AI project was coded by
