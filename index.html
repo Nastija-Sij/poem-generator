@@ -7,8 +7,25 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <header></header>
-    <h1>Generate me a poem</h1>
+    <header>
+      <h1>Generate me a poem</h1>
+    </header>
+    <main>
+      <form action="">
+        <input
+          type="text"
+          placeholder="Enter the instructions for your poem.."
+          required
+          autofocus
+          id="search-input"
+          autocomplete="off"
+        />
+        <input type="submit" value="Generate" id="submit-button"/>
+      </form>
+      <div class="container">
+        <p id="generated-poem">Your Poem</p>
+      </div>
+    </main>
     <footer>
       This AI project was coded by
       <a href="https://github.com/Nastija-Sij" target="_blank">Nastija Sij</a>

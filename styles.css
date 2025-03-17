@@ -1,3 +1,43 @@
+body {
+  text-align: center;
+  background-color: rgba(139, 164, 156, 0.426);
+}
 h1 {
   color: green;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+#search-input {
+  min-width: 400px;
+  padding: 10px;
+  border: none;
+  autoco
+  mplete: off;
+}
+#submit-button {
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid hotpink;
+  cursor: pointer;
+  background-color: rgb(186, 125, 156);
+  box-shadow: 0 0 10px rgba(113, 113, 113, 0.1);
+  transition: ease-in-out 0.2s;
+}
+.container {
+  background: rgba(255, 255, 255, 0.562);
+  max-width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(113, 113, 113, 0.1);
+}
+
+#generated-poem {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  line-height: 16px;
 }
