@@ -10,7 +10,7 @@ h1 {
   font-family: "Lustria", serif;
   font-weight: 550;
   font-style: normal;
-  font-size: 40px;
+  font-size: 45px;
 }
 .quote {
   font-family: "Lustria", serif;
@@ -36,7 +36,8 @@ form {
   padding: 10px;
   border: none;
   border-radius: 7px;
-  background: #fde3d3;
+  color: rgb(20, 20, 20);
+  background: #fde3d350;
 }
 #submit-button {
   padding: 10px;
@@ -45,7 +46,7 @@ form {
   margin-left: 15px;
   cursor: pointer;
   background-color: #c58c6ec1;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.297);
   transition: ease-in-out 0.2s;
 }
@@ -62,7 +63,7 @@ form {
 #generated-poem {
   color: rgb(0, 0, 0);
   font-style: italic;
-  line-height: 16px;
+  line-height: 30px;
 
   font-family: "Lustria", serif;
   font-weight: 400;
@@ -70,10 +71,12 @@ form {
 }
 
 footer {
+  font-family: "Lustria", serif;
   margin-top: 30px;
+  margin-bottom: 40px;
   font-size: 14px;
   color: #c58c6e;
-  font-family: "Inter", sans-serif;
+
   font-optical-sizing: auto;
   font-weight: light;
 }
