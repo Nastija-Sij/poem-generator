@@ -28,8 +28,6 @@ function generatePoem(event) {
 
   poemContainerElement.innerHTML = `<div class="generating">⏳Generating a poem about ${searchInput.value}...</div>`;
 
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
   axios.get(apiUrl).then(displayPoem);
 }
 
